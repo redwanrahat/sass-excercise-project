@@ -1,0 +1,79 @@
+.product__card {
+    width: 25rem;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000008; 
+    .product__image {
+        width: 20rem;
+        margin: 0 auto; 
+        text-align: center;
+        padding: 10%;
+        img{
+            width: 60%;
+        }
+    }
+    .product__info{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 5%;
+        .ratings{
+            background-color: #6F64F8;
+            padding: 2% 5% 2% 5%;
+            border-radius: 5px; 
+            color: white;
+            i{
+                
+            }
+        }
+        .price{
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+    }
+    .product__description{
+        width: 80%;
+        margin: 0 auto;
+        padding: 5%;
+        padding-bottom: 8%;
+        .product__name{
+            font-size: 1.3em;
+            padding-bottom: 3%;
+        }
+        .product__sub{
+            color: rgb(140, 140, 140);
+            padding-bottom: 3%;
+            font-size: .85em;
+        }
+    }
+    .card__button{
+        box-shadow: 0 3px 10px #00000008;
+        .btn__left{
+            width: 49.48%;
+            background-color: #EDEDED;
+            padding: 5%;
+            border: none;
+            border-radius: 0 0 0 10px;
+            font-size: 1em;
+            i{
+                padding: 8% 8% 8% 0;
+            }
+        }
+        .btn__right{
+            width: 49.48%;
+            background-color: #6F64F8;
+            padding: 5%;
+            border: none;
+            border-radius: 0 0 10px 0;
+            color: white;
+            font-size: 1em;
+            i{
+                padding: 8% 8% 8% 0;
+                color: rgba(255, 255, 255, 0.74);
+            }
+        }
+    }
+}
+  

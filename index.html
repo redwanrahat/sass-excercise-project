@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sass Excercise Project</title>
     <link rel="stylesheet" href="./.dist/css/style.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 <body>
-    <h1 class="header">This is a test project</h1>
+    <div class="wrapper">
+        <div class="product__card">
+            <div class="product__image">
+                <img class="prod__img" src="./assets/product-images/apple-watch.png" alt="wrist watch image">
+            </div>
+            <div class="product__info">
+                <div class="ratings">3.4 <i class="far fa-star"></i></div>
+                <div class="price">$399</div>
+            </div>
+            <div class="product__description">
+                <div class="product__name">Apple Watch Series 4 GPS</div>
+                <div class="product__sub">Redesigned from scratch and completely revised.</div>
+            </div>
+            <div class="card__button">
+                <button class="btn__left"><i class="far fa-heart"></i>Wishlist</button>
+                <button class="btn__right"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

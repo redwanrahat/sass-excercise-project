@@ -9,6 +9,7 @@
   "author": "Redwan Rahat",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.0",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
